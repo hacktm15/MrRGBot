@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+
+    <title>Mr. RGBot</title>    
+    <link rel="stylesheet" type="text/css" href="stylesheets/ui.css">
+</head>
+
+<body>
+    
+
+
+	<div class="Game">
+
+		<img class="animated" id="gameover" src="img/ui/gameover.png" />
+		<img class="animated" id="levelup" src="img/ui/levelup.png" />
+
+        <p id="score"></p>		
+		<p id="story"></p>
+
+        <div id="color"></div>
+
+    	<canvas id="stage" width="830" height="430" id="stage"></canvas>
+    </div>
+
+    <script type="text/javascript" src="lib/vendor/socketio.js"></script>
+    <script type="text/javascript" src="lib/vendor/createjs.js"></script>
+    <script type="text/javascript" src="lib/utils/domready.js"></script>
+    <script type="text/javascript" src="lib/utils/matchcolors.js"></script>
+    <script type="text/javascript" src="lib/game.js"></script>    
+</body>
+
+</html>
